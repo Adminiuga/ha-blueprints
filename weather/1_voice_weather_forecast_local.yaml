@@ -205,6 +205,8 @@ blueprint:
               multiple: true
           default:
             - "night"
+            - "tonight"
+            - "tomorrow night"
         morning:
           name: Morning
           description: Phrases to request the forecast for the morning
@@ -214,6 +216,7 @@ blueprint:
               multiple: true
           default:
             - "morning"
+            - "tomorrow morning"
         afternoon:
           name: Afternoon
           description: Phrases to request the forecast for the afternoon
@@ -223,6 +226,7 @@ blueprint:
               multiple: true
           default:
             - "afternoon"
+            - "tomorrow afternoon"
         evening:
           name: Evening
           description: Phrases to request the forecast for the evening
@@ -232,6 +236,7 @@ blueprint:
               multiple: true
           default:
             - "evening"
+            - "tomorrow evening"
     response_settings:
       name: Settings for the reponses
       icon: mdi:chat
